@@ -1,3 +1,8 @@
+<?php
+    include "db.php";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,6 +80,28 @@
         .login-container button:hover {
             background-color: rgb(58, 44, 10) ;
         }
+        .register {
+            display: flex;
+            justify-content: center;   
+            align-items: center;       
+            text-align: center;
+            margin-top: 20px;
+    }
+        .register p {
+        font-size: 14px;
+        color: #565228;
+         }
+
+        .register a {
+            color: #565228;
+            cursor: pointer;
+            text-decoration: bold;
+            margin-left: 5px;
+         }
+
+        .register a:hover {
+            text-decoration: underline;
+        }
     </style>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -131,6 +158,9 @@
             </div>
 
             <button type="submit">Login</button>
+            <div class="register">
+                <p>new user? <a> Register here!</a></p>
+            </div>
         </form>
     </div>
 
