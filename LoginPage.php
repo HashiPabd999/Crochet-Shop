@@ -20,7 +20,7 @@
 
         body {
             height: 100vh;
-            background: url('login.jpg') no-repeat center center/cover;
+            background: url('assets/login.jpg') no-repeat center center/cover;
             display: flex;
             justify-content: center;
             align-items: center;
